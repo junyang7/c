@@ -1,6 +1,18 @@
 {
   "license": "MIT",
   "name": "junyang7/c",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://composer.ziji.fun:10001/"
+    }
+  ],
+  "require": {
+    "junyang7/b": "dev-master"
+  },
+  "config": {
+    "secure-http": false
+  },
   "autoload": {
     "psr-4": {
       "Junyang7\\C\\": "/src"
